@@ -1,0 +1,8 @@
+.App {
+  background-color: #939393;
+}
+.subContainer{
+  display: flex;
+  flex-direction: row;
+}
+

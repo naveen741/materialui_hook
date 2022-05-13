@@ -1,0 +1,17 @@
+.sideBar{
+    flex: 20%;
+    background-color: #556676;
+    border-collapse: collapse;
+    border: #000000 solid 1px;
+}
+.items{
+    padding: 15px;
+    border: #000000 solid 1px;
+    border-collapse: collapse;
+}
+.menu{
+    text-decoration: solid underline;
+    color: #e1e1f6;
+    
+    background-color: #5b656e;
+}

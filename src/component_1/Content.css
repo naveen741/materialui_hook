@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex: 80%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #6c6e6d;
+    padding: 10px;
+    border: solid 2px #000;
+
+}
+.icon{
+    float: right;
+}
+.content{
+    flex: 35%;
+    padding: 15px;
+}
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 65%;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+}
