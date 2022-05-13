@@ -30,7 +30,6 @@ const options = [
         setAnchorEl(null);
     }
     const handleDelete=(id)=>{
-        console.log(document.getElementById(id))
         const all_card=document.querySelector('.Cards');
         all_card.removeChild(document.getElementById(id));
         setAnchorEl(null);
@@ -83,7 +82,7 @@ const options = [
                 Project Name : {details.detail.Name.name}
             </Typography>
             <Typography id='typePro'  variant="h5" color="text.secondary">
-                Project Domain : {details.detail.ProType.type}
+                Project Domain : {details.detail.ProType}
             </Typography>
             <Typography id='descript' variant="h5" color="text.secondary">
                 Project Description : {details.detail.Description.desc}

@@ -104,7 +104,7 @@ export default function Content(){
                     aria-labelledby="projectType"
                     name="domain" 
                     value={type}
-                    onChange={(e)=>{setType(e.target.value); setDetail({
+                    onChange={(e)=>{console.log(e.target.value); setType(e.target.value); setDetail({
                         id: i,
                         Name: {name},
                         ProType: e.target.value,

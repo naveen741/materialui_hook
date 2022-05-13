@@ -23,7 +23,9 @@
     justify-content: space-between;
     padding: 25px;
 }
-
+.Cards .card{
+    margin-bottom: 5% ;
+}
 .myform{
     display: flex;
     flex-direction: column;
